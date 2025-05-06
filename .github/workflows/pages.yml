@@ -19,6 +19,7 @@ jobs:
 
       - name: build pages
         run: |
+          cd slides
           npm run build
 
       - name: Deploy to GitHub Pages
