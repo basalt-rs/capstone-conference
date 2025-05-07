@@ -1,0 +1,13 @@
+.blur-host-bg::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../examples/assets/host-panel.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    filter: blur(10px);
+}
